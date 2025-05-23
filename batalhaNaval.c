@@ -6,6 +6,14 @@
 #define TAM 10
 
 int main() {
+    char tabuleiro[TAM][TAM] = {0};
+
+    int navio_horizontal_x = 2;
+    int navio_horizontal_y = 3;
+    int tamanho_horizontal = 4;
+    int navio_vertical_x = 5;
+    int navio_vertical_y = 1;
+    int tamanho_vertical = 3;
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
