@@ -14,6 +14,14 @@ int main() {
     int navio_vertical_x = 5;
     int navio_vertical_y = 1;
     int tamanho_vertical = 3;
+
+    for (int i = 0; i < tamanho_horizontal; i++) {
+        tabuleiro[navio_horizontal_y][navio_horizontal_x + i] = 'H';
+    }
+
+    for (int i = 0; i < tamanho_vertical; i++) {
+        tabuleiro[navio_vertical_y + i][navio_vertical_x] = 'V';
+    }
     // Nível Novato - Posicionamento dos Navios
     // Sugestão: Declare uma matriz bidimensional para representar o tabuleiro (Ex: int tabuleiro[5][5];).
     // Sugestão: Posicione dois navios no tabuleiro, um verticalmente e outro horizontalmente.
